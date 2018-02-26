@@ -1,6 +1,6 @@
 # PingPong
 This is a mathematical game that uses the knowledge of divisibility test for 3 and 5. Version 1 as at 24th February, 2018.
-#Prepared by:
+##Prepared by:
 Jude Juma
 ## DeScription
 This game allows users to enter any integer and returns "ping" for multiples of, "pong" for multiples of five and "PingPong" for multiples of both three and five.
