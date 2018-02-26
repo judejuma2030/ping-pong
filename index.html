@@ -8,13 +8,17 @@
     <title>HTML help</title>
   </head>
   <body id="background1">
-  <div class="container">
+    <!-- Adding header -->
     <header>
       <div class="jumbotron">
     <h1> Ping-Pong </h1>
   </div>
     </header>
+     <!--End header section-->
+      <div class="pageWrapper" style="background-color: grey;">
+  <div class="container">
       <div class="row">
+         <!--Side bar on left-->
            <div class="col-md-5">
         <h2>About Ping-Pong</h2>
         <h3 id="text1">Created by</h3>
@@ -24,30 +28,23 @@
         <p id="text1">Level 2 test for:</p>
         <p id="text2">Java</p>
             </div>
-            <div class="col-md-7">
-         <h2>Lets's Play</h2>
-         <h2> Rules: </h2>
-         <p>Ping-Pong will count up to your number with the following exceptions:</p>
-         <ol>
-           <li>Numbers divisible by 3 become "ping"</li>
-           <li>Numbers divisible by 5 become "pong"</li>
-           <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-         </ol>
-         <p>Enter your number here:</p>
-            <form id="number">
-                     <div class="form-group">
-                       <label for="number">Input Number</label>
-                       <input id="number" class="form-control" type="text">
-                       <button type="submit" class="btn">Submit</button>
-                     </div>
-                   </form>
-        <!-- Creating forms for taking input from user -->
-
-
-             </div>
+      <!--End side bar on left-->
+                                <!--form starts here-->
+                  <div class="form-group">
+                    <label for="number">Enter your number please:</label>
+                    <input id="number" class="formcontrol" required=" " type="text "></input>
+                    <button class="btn">Ping-Pong!</button>
+                  </div>
+                  <div id="userOutput"></div>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    <script src="js/jquery-3.3.1.js">
+      <!--End page wrapper-->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
