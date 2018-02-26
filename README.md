@@ -8,6 +8,8 @@ This game allows users to enter any integer and returns "ping" for multiples of,
 The project can be accessed on GitHub via the link https://github.com/judejuma2030/ping-pong.git
 ## Technologies Used
 The project was created using HTML, CSS (customs css and bootstrap version 3.37) and JavaScript (jquery version 3.3.1)
+## Known Bugs
+There are no known bugs for this program
 ## Support and contact details
 Email: judejuma@gmail.com.
 Mobile: +254713751628
